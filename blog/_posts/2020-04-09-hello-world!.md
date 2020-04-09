@@ -10,7 +10,7 @@ Thanks for dropping by! Make sure to stay tuned for upcoming InfoSec and other T
 
 Furthermore, I will be sharing with you guys some of my own challenge walkthroughs, code, exploits and much more. Stay Tuned!
 
-#### Goals: 
+### Goals: 
 
 - Document what I learn.
 - Share knowledge that might help others.
