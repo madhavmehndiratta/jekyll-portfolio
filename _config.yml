@@ -1,5 +1,6 @@
 # Site settings
 title: Madhav Mehndiratta
+owner : 0xm1m3
 description: Madhav Mehndiratta
 blog-baseurl: /blog
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
@@ -12,7 +13,7 @@ user_title: Infosec Enthusiast
 email: madhavmehndiratta@gmail.com.com
 twitter_username: 0xm1m3
 github_username:  madhavmehndiratta
-
+instagram_username: madhavmehndiratta
 # Google-analytics
 google-analytics:
   id: ""
@@ -39,7 +40,7 @@ paginate: 3
 paginate_path: /blog/page/:num/
 future: true
 
-owner : "0xm1m3"
+
 
 author:
   name: "Madhav Mehndiratta"
