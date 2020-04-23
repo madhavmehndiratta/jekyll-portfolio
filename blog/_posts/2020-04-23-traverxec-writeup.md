@@ -8,7 +8,7 @@ published: true
 <img src='assets/traverxec/traverxec.jpg'>
 </center>
 
-Today we will be doing Traverxec from Hack the Box. The box was rated easy and good for beginners to practice pentesting skills. The box had an IP address of 10.10.10.165. For the initial foothold we had to exploit a webserver that was vulnerable to remote code execution and get a reverse shell back in our machine. For root the user David had privilege to execute journalctl as root we leveraged that to get root in the box. With that said let’s jump in.<br><br>
+Today we will be doing Traverxec from Hack The Box. The box was rated easy and good for beginners to practice pentesting skills. The box had an IP address 10.10.10.165. For the initial foothold we had to exploit a webserver that was vulnerable to remote code execution and get a reverse shell back in our machine. For root the user David had privilege to execute journalctl as root we leveraged that to get root in the box. With that said let’s jump in.<br><br>
 
 We begin our reconnaissance by running a port scan with Nmap, checking default scripts and testing
 for vulnerabilities.
@@ -165,7 +165,7 @@ echo "Last 5 journal log lines:"
 /usr/bin/sudo /usr/bin/journalctl -n5 -unostromo.service | /usr/bin/cat
 ```
 
-Last line of the script tells us that david can run `/usr/bin/journalctl` with sudo. So I went to [GTFO bin’s](https://gtfobins.github.io/gtfobins/journalctl/) and exploited the less prompt that opens up as sudo using this `!/bin/bash`.
+Last line of the script tells us that david can run `/usr/bin/journalctl` with sudo. So I searched in[GTFO bin’s](https://gtfobins.github.io/gtfobins/journalctl/) and exploited the less prompt that opens up as sudo using `!/bin/bash`.
 
 ```
 david@traverxec:/dev/shm$ ./server-stats.sh
