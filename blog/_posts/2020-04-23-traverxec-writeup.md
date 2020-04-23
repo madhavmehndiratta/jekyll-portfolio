@@ -1,6 +1,6 @@
 ---
 date: 2020-04-23
-title: "Hack The Box ~ Traverxec"
+title: "HTB ~ Traverxec"
 published: true
 ---
 <br>
