@@ -165,7 +165,7 @@ echo "Last 5 journal log lines:"
 /usr/bin/sudo /usr/bin/journalctl -n5 -unostromo.service | /usr/bin/cat
 ```
 
-Last line of the script tells us that david can run `/usr/bin/journalctl` with sudo. So I searched in[GTFO bin’s](https://gtfobins.github.io/gtfobins/journalctl/) and exploited the less prompt that opens up as sudo using `!/bin/bash`.
+Last line of the script tells us that david can run `/usr/bin/journalctl` with sudo. So I searched in [GTFO bin’s](https://gtfobins.github.io/gtfobins/journalctl/) and exploited the less prompt that opens up as sudo using `!/bin/bash`.
 
 ```
 david@traverxec:/dev/shm$ ./server-stats.sh
