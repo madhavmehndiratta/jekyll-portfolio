@@ -98,8 +98,7 @@ uid=33(www-data) gid=33(www-data) groups=33(www-data)
 
 ## User Shell:
 
-With some enumeration we can find the nostromo config file at `/var/nostromo/conf` which reveals a http password file
-for protecting the www directory from david’s home.
+With some enumeration we can find the nostromo config file at `/var/nostromo/conf` which reveals a public home directory.
 
 ```
 www-data@traverxec:/var/nostromo/conf$ cat nhttpd.conf
@@ -122,7 +121,7 @@ drwx--x--x ​ 5 ​ david david ​ 4.0​ K Oct ​ 25​ ​ 17​ : ​ 02�
 drwxr-xr-x ​ 2 ​ david david ​ 4.0​ K Oct ​ 25​ ​ 17​ : ​ 02​ protected-file-area
 ```
 
-After looking inside the `protected-file-area` we a get a file `backup-ssh-identity-files.tgz`. After copying it to my machine, I found the private ssh key for David. We can now use john to crack the key and ssh into the box.
+After looking inside the `protected-file-area` I found a `backup-ssh-identity-files.tgz`. After copying it to my machine, I found the private ssh key for David. We can now use john to crack the key and ssh into the box.
 
 ```
 m1m3@kali:~/Documents/htb/traverxec$ /usr/share/john/ssh2john.py id_rsa > id_rsa.txt
