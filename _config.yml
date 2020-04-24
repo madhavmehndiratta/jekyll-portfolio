@@ -1,5 +1,6 @@
 # Site settings
 title: Madhav Mehndiratta
+blog-title: Madhav Mehndiratta's Blog
 owner : 0xm1m3
 description: Madhav Mehndiratta
 blog-baseurl: /blog
@@ -18,7 +19,7 @@ instagram_username: madhavmehndiratta
 google-analytics:
   id: ""
 
-exclude: ['package.json', 'src' , 'node_modules']
+exclude: ['package.json', 'src' , 'node_modules', 'readme.md', 'blog/initpost.sh']
 
 defaults:
   -
