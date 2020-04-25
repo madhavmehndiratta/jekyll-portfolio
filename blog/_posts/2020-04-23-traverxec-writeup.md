@@ -1,6 +1,7 @@
 ---
 date: 2020-04-23
 title: "HTB ~ Traverxec"
+description: Today we will be doing Traverxec from Hack The Box. The box was rated easy and good for beginners to practice pentesting skills.
 published: true
 ---
 <br>

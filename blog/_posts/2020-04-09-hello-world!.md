@@ -1,6 +1,7 @@
 ---
 date: 2020-04-09 08:44:35
-title: "Hello World!"
+title: Hello World!
+description: Welcome to 0xm1m3, my new blog!. Make sure to stay tuned for upcoming InfoSec and other Tech related posts. Moreover, I will be posting about matters and issues concerning the Information Security segment, as well as my personal experiences in the Cyber Security world.
 published: true
 ---
 
