@@ -1,13 +1,13 @@
 # Site settings
 title: Madhav Mehndiratta
-description: I am a 12th grade student at Sacred Heart Convent School, Jagadhri. I am extremely interested in Cyber Security and want to be a Red Teamer.
+description: I am a 12th grade student at Sacred Heart Convent School, Jagadhri. I am extremely interested in Cyber Security and wannabe Red Teamer.
 
 # baseurl: "/particle" # the subpath of your site, e.g. /blog
 # url: "localhost:3000" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Madhav Mehndiratta
-user_description: I am a 12th grade student at Sacred Heart Convent School, Jagadhri. I am extremely interested in Cyber Security and want to be a Red Teamer. I enjoy hacking stuff as much as I enjoy writing about it. You can check my blog where you will find write-ups for CTF challenges, articles about certain topics and even quick notes about different things that I want to remember.
+user_description: I am a 12th grade student at Sacred Heart Convent School, Jagadhri. I am extremely interested in Cyber Security and wannabe Red Teamer. I enjoy hacking stuff as much as I enjoy writing about it. You can check my blog where you will find write-ups for CTF challenges, articles about certain topics and even quick notes about different things that I want to remember.
 user_title: Infosec Enthusiast
 email: madhavmehndiratta2k3@gmail.com
 twitter_username: 0xMadhav
