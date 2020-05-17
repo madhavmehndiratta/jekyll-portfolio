@@ -16,7 +16,7 @@ instagram_username: madhavmehndiratta
 
 # Google-analytics
 google-analytics:
-  id: ""
+  id: "UA-166855612-2"
 
 exclude: ['package.json', 'src' , 'node_modules', 'readme.md', '.jekyll_cache']
 
